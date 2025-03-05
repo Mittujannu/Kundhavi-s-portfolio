@@ -1,0 +1,52 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2E9E4;
+    color: #22223B;
+    text-align: center;
+}
+header {
+    background-color: #22223B;
+    color: #F2E9E4;
+    padding: 50px 20px;
+    font-size: 1.5em;
+    position: relative;
+}
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+section {
+    padding: 40px;
+    margin: 40px auto;
+    max-width: 900px;
+    background: #C9ADA7;
+    border-radius: 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+a {
+    color: #22223B;
+    text-decoration: none;
+    font-weight: bold;
+}
+.dark-mode {
+    background-color: #22223B;
+    color: #F2E9E4;
+}
+.toggle-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background: #9A8C98;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
